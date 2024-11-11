@@ -12038,10 +12038,9 @@ textarea.form-control-lg {
 
 .anim {
   width: 100%;
-  height: 180vh;
+  height: 120em;
   font-weight: bold;
   padding: 5px;
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12089,4 +12088,51 @@ textarea.form-control-lg {
   margin: 30px;
   background-size: cover;
   border-radius: 50%;
+}
+
+#footer {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+#footer .contact {
+  background-color: #43291A;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+#footer .contact .main_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 60px;
+}
+#footer .contact .main_contact .titre_h3 {
+  width: 15vh;
+  display: flex;
+  border-bottom: 0.3em solid #fff;
+}
+#footer .contact .main_contact .titre_h3 h3, #footer .contact .main_contact .titre_h3 .h3 {
+  padding: 10px;
+  color: #fff;
+}
+#footer .contact .main_contact ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0;
+  margin: 0;
+}
+#footer .contact .main_contact ul p {
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  padding: 10px;
+}
+#footer .contact .main_contact ul a {
+  text-decoration: none;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
