@@ -3,19 +3,22 @@
 @import 'custom';
 
 
+// Page home //
 .navbar{
-     background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.5) 50%,
-      rgba(0, 0, 0, 0.5) 50%
-    ),
-    url("../img/FontSene2.jpg"); 
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  background: linear-gradient(
+   to top,
+   rgba(0, 0, 0, 0.5) 50%,
+   rgba(0, 0, 0, 0.5) 50%
+ ),
+ url("../img/FontSene2.jpg"); 
+ background-position: center;
+ background-size: cover;
+ height: 8vh;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
     .container{
       display: flex;
       flex-direction: row;
@@ -41,7 +44,6 @@
         font-size: 2vh;
       }
     }
-}
 
 .section-presention {
   width: 100%;
@@ -178,4 +180,81 @@
       }
     }
   }
+}
+
+
+// Page habitat //
+.title{
+  background: linear-gradient(
+   to top,
+   rgba(0, 0, 0, 0.5) 50%,
+   rgba(0, 0, 0, 0.5) 50%
+ ),
+ url("../img/FontSene3.jpg"); 
+ background-position: center;
+ background-size: cover;
+ height: 60vh;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: end;
+ justify-content: space-around;
+ padding: 5em;
+ img{
+  height: 15em;
+  width: 15em;
+  border-radius: 50% 50%;
+ }
+ .zone_text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+ h1{
+   padding: 0.5em;
+   text-align: center;
+   color: white;
+   font-size: 6vh;
+ }
+ p{
+  color: white;
+ }   
+ a{
+   color: white;
+ } 
+}
+
+.container-sectionHabitat{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  .container-habitat{
+    display: flex;
+    flex-direction: column;
+    .img_habitat{
+      margin-bottom: 30px;
+    }
+  }
+  .zone_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+      font-size: 20px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+  img{
+    height: 15em;
+    width: 15em;
+    border-top-left-radius: 5px 200px;
+	border-top-right-radius: 170px 50px;
+	border-bottom-right-radius: 5px 200px;
+	border-bottom-left-radius: 190px 50px;
+   }
 }

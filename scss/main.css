@@ -11970,30 +11970,34 @@ textarea.form-control-lg {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/FontSene2.jpg");
   background-position: center;
   background-size: cover;
-  height: 40vh;
+  height: 8vh;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.navbar .container {
+
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.navbar h1, .navbar .h1 {
+
+h1, .h1 {
   padding: 2cm;
   text-align: center;
   color: white;
   font-size: 6vh;
 }
-.navbar a {
+
+a {
   color: white;
 }
-.navbar .collapse {
+
+.collapse {
   display: flex;
   flex-direction: row;
 }
-.navbar .collapse li a {
+.collapse li a {
   text-decoration: none;
   margin: 0 15px;
   padding: 10px;
@@ -12135,4 +12139,74 @@ textarea.form-control-lg {
 #footer .contact .main_contact ul a {
   text-decoration: none;
   color: #fff;
+}
+
+.title {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/FontSene3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+.title img {
+  height: 15em;
+  width: 15em;
+  border-radius: 50% 50%;
+}
+.title .zone_text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.title h1, .title .h1 {
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+  font-size: 6vh;
+}
+.title p {
+  color: white;
+}
+.title a {
+  color: white;
+}
+
+.container-sectionHabitat {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+}
+.container-sectionHabitat .container-habitat {
+  display: flex;
+  flex-direction: column;
+}
+.container-sectionHabitat .container-habitat .img_habitat {
+  margin-bottom: 30px;
+}
+.container-sectionHabitat .zone_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-sectionHabitat .zone_text h3, .container-sectionHabitat .zone_text .h3 {
+  font-size: 20px;
+}
+.container-sectionHabitat .zone_text p {
+  font-size: 12px;
+}
+.container-sectionHabitat img {
+  height: 15em;
+  width: 15em;
+  border-top-left-radius: 5px 200px;
+  border-top-right-radius: 170px 50px;
+  border-bottom-right-radius: 5px 200px;
+  border-bottom-left-radius: 190px 50px;
 }/*# sourceMappingURL=main.css.map */
