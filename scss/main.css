@@ -11981,6 +11981,9 @@ textarea.form-control-lg {
   flex-direction: row;
   justify-content: space-between;
 }
+.container a {
+  color: white;
+}
 
 h1, .h1 {
   padding: 2cm;
@@ -12010,16 +12013,17 @@ a {
   height: 80vh;
   font-weight: bold;
   padding: 10px;
-  padding-top: 20px;
+  padding-top: 40px;
   display: flex;
 }
 .section-presention .text {
-  margin: 100px;
-  padding-bottom: 100px;
+  margin: 50px;
+  padding-bottom: 40px;
 }
 .section-presention .text h1, .section-presention .text .h1 {
   font-size: 60px;
   padding: 30px;
+  color: #091102;
 }
 .section-presention .text p {
   font-size: 20px;
@@ -12234,6 +12238,7 @@ a {
 .container-sectionHabitats .title-animal {
   text-align: center;
   margin: 20px;
+  padding-top: 40px;
 }
 .container-sectionHabitats .title-animal h2, .container-sectionHabitats .title-animal .h2 {
   color: #fff;
@@ -12242,7 +12247,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 40px;
+  padding: 20px;
+  margin: 60px;
 }
 .container-sectionHabitats .img_habitats {
   margin-bottom: 30px;
@@ -12267,6 +12273,8 @@ a {
 }
 .container-sectionHabitats .img_habitats .zone_text_habitats .para_habitat {
   font-size: 0.7em;
+  display: flex;
+  text-align: justify;
 }
 
 #zone1, #zone3 {
