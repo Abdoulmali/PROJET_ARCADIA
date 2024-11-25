@@ -11966,8 +11966,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.page404 h1, .page404 .h1, .page404 p, .page404 a {
+  color: #091102;
+}
+
 .navbar {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/FontSene2.jpg");
+  background: linear-gradient(to top, rgba(0, 10, 0, 0.8549019608) 70%, rgba(0, 10, 0, 0.855) 70%), url("../img/FontSene2.jpg");
+  opacity: 0.66;
   background-position: center;
   background-size: cover;
   height: 8vh;
@@ -12145,7 +12150,45 @@ a {
   color: #fff;
 }
 
-.title {
+.title_home {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/FontSene2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+.title_home img {
+  height: 15em;
+  width: 15em;
+  border-top-left-radius: 5px 200px;
+  border-top-right-radius: 170px 50px;
+  border-bottom-right-radius: 5px 200px;
+  border-bottom-left-radius: 190px 50px;
+}
+.title_home .zone_text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.title_home h1, .title_home .h1 {
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+  font-size: 6vh;
+}
+.title_home p {
+  color: white;
+}
+.title_home a {
+  color: white;
+}
+
+.title_habitat {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/FontSene3.jpg");
   background-position: center;
   background-size: cover;
@@ -12157,7 +12200,7 @@ a {
   justify-content: space-around;
   padding: 5em;
 }
-.title img {
+.title_habitat img {
   height: 15em;
   width: 15em;
   border-top-left-radius: 5px 200px;
@@ -12165,21 +12208,21 @@ a {
   border-bottom-right-radius: 5px 200px;
   border-bottom-left-radius: 190px 50px;
 }
-.title .zone_text {
+.title_habitat .zone_text {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-.title h1, .title .h1 {
+.title_habitat h1, .title_habitat .h1 {
   padding: 0.5em;
   text-align: center;
   color: white;
   font-size: 6vh;
 }
-.title p {
+.title_habitat p {
   color: white;
 }
-.title a {
+.title_habitat a {
   color: white;
 }
 
@@ -12204,7 +12247,7 @@ a {
   align-items: center;
 }
 .container-sectionHabitat .zone_text h3, .container-sectionHabitat .zone_text .h3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 .container-sectionHabitat .zone_text p {
   font-size: 12px;
@@ -12242,6 +12285,7 @@ a {
 }
 .container-sectionHabitats .title-animal h2, .container-sectionHabitats .title-animal .h2 {
   color: #fff;
+  font-size: 45px;
 }
 .container-sectionHabitats .section_habitat {
   display: flex;
@@ -12258,12 +12302,14 @@ a {
 .container-sectionHabitats .img_habitats img {
   height: 15em;
   width: 15em;
+  border-radius: 10%;
   position: absolute;
 }
 .container-sectionHabitats .img_habitats .zone_text_habitats {
   background-color: #fff;
+  width: 240px;
   position: relative;
-  margin-top: 15vh;
+  margin-top: 20vh;
   padding-top: 30px;
   border-top-left-radius: 50%;
 }
@@ -12276,6 +12322,9 @@ a {
   display: flex;
   text-align: justify;
 }
+.container-sectionHabitats .img_habitats .zone_text_habitats .para_habitat a {
+  color: #988477;
+}
 
 #zone1, #zone3 {
   background-color: #253F0F;
@@ -12283,4 +12332,7 @@ a {
 
 #zone2, #zone4 {
   background-color: #988477;
+}
+#zone2 h2, #zone2 .h2, #zone4 h2, #zone4 .h2 {
+  color: #253F0F;
 }/*# sourceMappingURL=main.css.map */
