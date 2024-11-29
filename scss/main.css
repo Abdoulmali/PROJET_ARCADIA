@@ -11966,7 +11966,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.page404 h1, .page404 .h1, .page404 p, .page404 a {
+.page404 h1, .page404 .h1,
+.page404 p,
+.page404 a {
   color: #091102;
 }
 
@@ -12241,18 +12243,22 @@ a {
 .container-sectionHabitat .container-habitat .img_habitat {
   margin-bottom: 30px;
 }
-.container-sectionHabitat .zone_text {
+.container-sectionHabitat .container-habitat .zone_text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container-sectionHabitat .zone_text h3, .container-sectionHabitat .zone_text .h3 {
+.container-sectionHabitat .container-habitat .zone_text h3, .container-sectionHabitat .container-habitat .zone_text .h3 {
   font-size: 25px;
 }
-.container-sectionHabitat .zone_text p {
+.container-sectionHabitat .container-habitat .zone_text h3 a, .container-sectionHabitat .container-habitat .zone_text .h3 a {
+  color: black;
+  text-decoration: none;
+}
+.container-sectionHabitat .container-habitat .zone_text p {
   font-size: 12px;
 }
-.container-sectionHabitat img {
+.container-sectionHabitat .container-habitat img {
   height: 15em;
   width: 15em;
   border-top-left-radius: 5px 200px;
@@ -12326,13 +12332,80 @@ a {
   color: #988477;
 }
 
-#zone1, #zone3 {
-  background-color: #253F0F;
+#zone1,
+#zone3 {
+  background-color: #253f0f;
 }
 
-#zone2, #zone4 {
+#zone2,
+#zone4 {
   background-color: #988477;
 }
-#zone2 h2, #zone2 .h2, #zone4 h2, #zone4 .h2 {
-  color: #253F0F;
+#zone2 h2, #zone2 .h2,
+#zone4 h2,
+#zone4 .h2 {
+  color: #253f0f;
+}
+
+.title-tigre {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/Felin/Tigre.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+.container-tigre {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+  padding: 5px;
+}
+.container-tigre .titre_h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px;
+}
+.container-tigre .titre_h2 h2, .container-tigre .titre_h2 .h2 {
+  font-size: 50px;
+}
+
+.img_tigre img {
+  height: 360px;
+  width: 600px;
+  border-radius: 10%;
+}
+
+.container_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_description .item_description {
+  background-color: #9d9898;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  border-radius: 15px;
+  padding: 20px;
+}
+.container_description .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+.container_description .description .div_description {
+  padding: 15px;
+}
+.container_description .description .div_description h3, .container_description .description .div_description .h3, .container_description .description .div_description p {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
