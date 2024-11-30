@@ -12360,24 +12360,24 @@ a {
   padding: 5em;
 }
 
-.container-tigre {
+.container-animal {
   height: 400px;
   display: flex;
   justify-content: space-around;
   margin: 25px;
   padding: 5px;
 }
-.container-tigre .titre_h2 {
+.container-animal .titre_h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 60px;
 }
-.container-tigre .titre_h2 h2, .container-tigre .titre_h2 .h2 {
+.container-animal .titre_h2 h2, .container-animal .titre_h2 .h2 {
   font-size: 50px;
 }
 
-.img_tigre img {
+.img_animal img {
   height: 360px;
   width: 600px;
   border-radius: 10%;
@@ -12408,4 +12408,43 @@ a {
 }
 .container_description .description .div_description h3, .container_description .description .div_description .h3, .container_description .description .div_description p {
   color: #fff;
+}
+
+.title-leopard {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/Felin/leopard2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+.title-lion {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/Felin/lion.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+.title-gorille {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/Singe/gorille3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
 }/*# sourceMappingURL=main.css.map */

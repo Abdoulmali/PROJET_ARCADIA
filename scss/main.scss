@@ -421,7 +421,7 @@ a {
   padding: 5em;
 }
 
-.container-tigre {
+.container-animal {
   height: 400px;
   display: flex;
   justify-content: space-around;
@@ -438,7 +438,7 @@ a {
   }
 }
 
-.img_tigre {
+.img_animal {
   img {
     height: 360px;
     width: 600px;
@@ -472,4 +472,64 @@ h3,p{
 }
   }  
 }
+}
+
+// Page Léopard //
+
+.title-leopard {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/Felin/leopard2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+// Page Lion //
+
+.title-lion {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/Felin/lion.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+// Page Gorille //
+
+.title-gorille {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/Singe/gorille3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
 }
