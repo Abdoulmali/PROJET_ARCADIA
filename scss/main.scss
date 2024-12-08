@@ -766,3 +766,48 @@ margin: 40px;
   }
 }
 
+
+// Page contact //
+
+.title-contact {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/lezar.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+.container_contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .item_text{
+    padding: 3em;
+    width: 50em;
+    height: 10em;
+    text-align: center;
+    p{
+      letter-spacing: 0.1em;
+      font-size: 1.1em;
+    }
+  }
+  .item_BigText{
+    margin: 1.5em;
+    h3{
+      padding: 0.5em;
+      font-size: 3em;
+      font-weight: bold;
+letter-spacing: 0.1em;
+    }
+  }
+}
