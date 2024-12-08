@@ -12551,4 +12551,70 @@ a {
   align-items: end;
   justify-content: space-around;
   padding: 5em;
+}
+
+.title-restauration {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/parkAtraction1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+.container-restau {
+  height: 100%;
+  width: 100%;
+}
+.container-restau .div_text {
+  margin: 40px;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+.container-restau .container-sectionHabitat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+}
+.container-restau .container-sectionHabitat .container-cart {
+  margin: 20px;
+}
+.container-restau .container-sectionHabitat .container-cart .img_habitat {
+  margin-bottom: 30px;
+  height: 100%;
+  width: 100%;
+}
+.container-restau .container-sectionHabitat .container-cart .img_habitat img {
+  height: 100%;
+  width: 100%;
+}
+.container-restau .container-sectionMenu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+.container-restau .container-sectionMenu .container-cart {
+  margin: 10px;
+}
+.container-restau .container-sectionMenu .container-cart .img_habitat {
+  margin-bottom: 30px;
+  height: 100%;
+  width: 100%;
+}
+.container-restau .container-sectionMenu .container-cart .img_habitat img {
+  height: 200px;
+  width: 400px;
+  border-radius: 5%;
 }/*# sourceMappingURL=main.css.map */

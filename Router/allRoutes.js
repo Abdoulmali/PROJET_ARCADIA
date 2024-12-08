@@ -19,6 +19,8 @@ export const allRoutes = [
   new Route("/pandaRoux", "pandaRoux", "/pages/animaux/panda/pandaRoux.html"),
   new Route("/pandaGeant", "pandaGeant", "/pages/animaux/panda/pandaGeant.html"),
   new Route("/koala", "koala", "/pages/animaux/koala.html"),
+
+  new Route("/restauration", "restauration", "/pages/restauration.html"),
 ];
 
   //Le titre s'affiche comme ceci : Route.titre - websitename

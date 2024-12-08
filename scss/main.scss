@@ -290,8 +290,7 @@ a {
     flex-direction: column;
     .img_habitat {
       margin-bottom: 30px;
-    }
-  
+    }  
   .zone_text {
     display: flex;
     flex-direction: column;
@@ -594,7 +593,7 @@ h3,p{
   padding: 5em;
 }
 
-// Ours polaire //
+// Page Ours polaire //
 
 .title-oursPolaire {
   background: linear-gradient(
@@ -614,7 +613,7 @@ h3,p{
   padding: 5em;
 }
 
-// Ours noir //
+// Page Ours noir //
 
 .title-oursNoir {
   background: linear-gradient(
@@ -634,7 +633,7 @@ h3,p{
   padding: 5em;
 }
 
-// Panda roux //
+// Page Panda roux //
 
 .title-pandaRoux {
   background: linear-gradient(
@@ -654,7 +653,7 @@ h3,p{
   padding: 5em;
 }
 
-// Panda géant //
+// Page Panda géant //
 .title-pandaGeant {
   background: linear-gradient(
       to top,
@@ -692,3 +691,78 @@ h3,p{
   justify-content: space-around;
   padding: 5em;
 }
+
+// Page restauration //
+
+.title-restauration {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/parkAtraction1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+.container-restau{
+  height: 100%;
+  width: 100%;
+  .div_text{
+margin: 40px;
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+  .container-sectionHabitat {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    .container-cart{
+      margin: 20px;
+      .img_habitat {
+        margin-bottom: 30px;
+        height: 100%;
+        width: 100%;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+
+      }  
+    }
+  }
+  .container-sectionMenu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    .container-cart{
+      margin: 10px;
+      .img_habitat{
+        margin-bottom: 30px;
+  height: 100%;
+  width: 100%;
+  img{
+    height: 200px;
+    width: 400px;
+    border-radius: 5%;
+  }
+      }
+    }
+  }
+}
+
