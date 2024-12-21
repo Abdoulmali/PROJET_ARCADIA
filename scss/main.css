@@ -11973,7 +11973,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  background: linear-gradient(to top, rgba(0, 10, 0, 0.8549019608) 70%, rgba(0, 10, 0, 0.855) 70%), url("../img/FontSene2.jpg");
+  background: linear-gradient(to top, rgba(61, 62, 61, 0.855), rgba(61, 62, 61, 0.855) 70%), url("../img/FontSene2.jpg");
   opacity: 0.66;
   background-position: center;
   background-size: cover;
@@ -12058,7 +12058,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #091102;
+  background-color: #112301;
   color: #fff;
 }
 .anim .anim_text {
@@ -12406,7 +12406,8 @@ a {
 .container_description .description .div_description {
   padding: 15px;
 }
-.container_description .description .div_description h3, .container_description .description .div_description .h3, .container_description .description .div_description p {
+.container_description .description .div_description h3, .container_description .description .div_description .h3,
+.container_description .description .div_description p {
   color: #fff;
 }
 
@@ -12575,6 +12576,9 @@ a {
   margin-left: 15em;
   margin-right: 15em;
 }
+.container-restau .div_text p {
+  font-size: 20px;
+}
 .container-restau .container-sectionHabitat {
   width: 100%;
   height: 100%;
@@ -12586,6 +12590,8 @@ a {
 }
 .container-restau .container-sectionHabitat .container-cart {
   margin: 20px;
+  position: relative;
+  display: inline-block;
 }
 .container-restau .container-sectionHabitat .container-cart .img_habitat {
   margin-bottom: 30px;
@@ -12595,6 +12601,15 @@ a {
 .container-restau .container-sectionHabitat .container-cart .img_habitat img {
   height: 100%;
   width: 100%;
+}
+.container-restau .container-sectionHabitat .container-cart .div_Cart {
+  position: absolute;
+  top: 50%;
+  margin: 20px;
+}
+.container-restau .container-sectionHabitat .container-cart .div_Cart h2, .container-restau .container-sectionHabitat .container-cart .div_Cart .h2,
+.container-restau .container-sectionHabitat .container-cart .div_Cart p {
+  color: #fff;
 }
 .container-restau .container-sectionMenu {
   width: 100%;
@@ -12614,6 +12629,18 @@ a {
   width: 100%;
 }
 .container-restau .container-sectionMenu .container-cart .img_habitat img {
+  height: 200px;
+  width: 400px;
+  border-radius: 5%;
+}
+.container-restau .container-sectionMenu .container-cart .img_habitat:hover {
+  margin-bottom: 30px;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: 1s;
+}
+.container-restau .container-sectionMenu .container-cart .img_habitat:hover img {
   height: 200px;
   width: 400px;
   border-radius: 5%;
@@ -12661,4 +12688,39 @@ a {
   font-size: 3em;
   font-weight: bold;
   letter-spacing: 0.1em;
+}
+.container_contact .item_BigText .form-label {
+  color: #75f00a;
+  font-weight: bold;
+}
+
+.title-connexion {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("../img/lezar.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+.title-connexion .zone_text {
+  width: 60em;
+  border-radius: 50px;
+  background: black;
+  opacity: 0.7;
+}
+
+.container_connexion {
+  margin: 25px;
+  padding: 25px;
+}
+.container_connexion a {
+  color: black;
+}
+.container_connexion .form-label {
+  color: black;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

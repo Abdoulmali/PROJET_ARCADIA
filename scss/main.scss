@@ -12,7 +12,11 @@
 
 // Index //
 .navbar {
-  background: linear-gradient(to top, #000a00da 70%, rgba(0, 10, 0, 0.855) 70%),
+  background: linear-gradient(
+      to top,
+      rgba(61, 62, 61, 0.855),
+      rgba(61, 62, 61, 0.855) 70%
+    ),
     url("../img/FontSene2.jpg");
   opacity: 0.66;
   background-position: center;
@@ -95,7 +99,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #091102;
+  background-color: #112301;
   color: #fff;
   .anim_text {
     width: 100%;
@@ -290,31 +294,31 @@ a {
     flex-direction: column;
     .img_habitat {
       margin-bottom: 30px;
-    }  
-  .zone_text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h3 {
-      font-size: 25px;
-      a{
-        color: black;
-        text-decoration: none;
+    }
+    .zone_text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h3 {
+        font-size: 25px;
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+      p {
+        font-size: 12px;
       }
     }
-    p {
-      font-size: 12px;
+    img {
+      height: 15em;
+      width: 15em;
+      border-top-left-radius: 5px 200px;
+      border-top-right-radius: 170px 50px;
+      border-bottom-right-radius: 5px 200px;
+      border-bottom-left-radius: 190px 50px;
     }
   }
-  img {
-    height: 15em;
-    width: 15em;
-    border-top-left-radius: 5px 200px;
-    border-top-right-radius: 170px 50px;
-    border-bottom-right-radius: 5px 200px;
-    border-bottom-left-radius: 190px 50px;
-  }
-}
 }
 
 // page Les différents habitats //
@@ -445,32 +449,33 @@ a {
   }
 }
 
-.container_description{
-display: flex;
-flex-direction: column;
-align-items: center;
-.item_description{
-  background-color: #9d9898;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
-  border-radius: 15px;
-  padding: 20px;
-}
-.description{
+.container_description {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
-  .div_description{
-padding: 15px;
+  align-items: center;
+  .item_description {
+    background-color: #9d9898;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    .div_description {
+      padding: 15px;
 
-h3,p{
-  color: #fff;
-}
-  }  
-}
+      h3,
+      p {
+        color: #fff;
+      }
+    }
+  }
 }
 
 // Page Léopard //
@@ -712,13 +717,16 @@ h3,p{
   padding: 5em;
 }
 
-.container-restau{
+.container-restau {
   height: 100%;
   width: 100%;
-  .div_text{
-margin: 40px;
+  .div_text {
+    margin: 40px;
     margin-left: 15em;
     margin-right: 15em;
+    p {
+      font-size: 20px;
+    }
   }
   .container-sectionHabitat {
     width: 100%;
@@ -728,8 +736,10 @@ margin: 40px;
     justify-content: space-around;
     padding: 20px;
     margin: 20px;
-    .container-cart{
+    .container-cart {
       margin: 20px;
+      position: relative;
+      display: inline-block;
       .img_habitat {
         margin-bottom: 30px;
         height: 100%;
@@ -738,11 +748,19 @@ margin: 40px;
           height: 100%;
           width: 100%;
         }
-
-      }  
+      }
+      .div_Cart {
+        position: absolute;
+        top: 50%;
+        margin: 20px;
+        h2,
+        p {
+          color: #fff;
+        }
+      }
     }
   }
-  .container-sectionMenu{
+  .container-sectionMenu {
     width: 100%;
     height: 100%;
     display: flex;
@@ -750,22 +768,33 @@ margin: 40px;
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
-    .container-cart{
+    .container-cart {
       margin: 10px;
-      .img_habitat{
+      .img_habitat {
         margin-bottom: 30px;
-  height: 100%;
-  width: 100%;
-  img{
-    height: 200px;
-    width: 400px;
-    border-radius: 5%;
-  }
+        height: 100%;
+        width: 100%;
+        img {
+          height: 200px;
+          width: 400px;
+          border-radius: 5%;
+        }
+      }
+      .img_habitat:hover {
+        margin-bottom: 30px;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        transition: 1s;
+        img {
+          height: 200px;
+          width: 400px;
+          border-radius: 5%;
+        }
       }
     }
   }
 }
-
 
 // Page contact //
 
@@ -785,7 +814,7 @@ margin: 40px;
   align-items: end;
   justify-content: space-around;
   padding: 5em;
-  .zone_text{
+  .zone_text {
     width: 60em;
     border-radius: 50px;
     background: black;
@@ -793,27 +822,69 @@ margin: 40px;
   }
 }
 
-.container_contact{
+.container_contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .item_text{
+  .item_text {
     padding: 3em;
     width: 50em;
     height: 10em;
     text-align: center;
-    p{
+    p {
       letter-spacing: 0.1em;
       font-size: 1.1em;
     }
   }
-  .item_BigText{
+  .item_BigText {
     margin: 1.5em;
-    h3{
+    h3 {
       padding: 0.5em;
       font-size: 3em;
       font-weight: bold;
-letter-spacing: 0.1em;
+      letter-spacing: 0.1em;
+    }
+    .form-label {
+      color: #75f00a;
+      font-weight: bold;
     }
   }
+}
+
+// Page connexion //
+.title-connexion {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/lezar.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+  .zone_text {
+    width: 60em;
+    border-radius: 50px;
+    background: black;
+    opacity: 0.7;
+  }
+}
+
+.container_connexion{
+margin: 25px;
+padding: 25px;
+a{
+  color: black;
+}
+
+.form-label{
+  color: black;
+  font-weight: bold;
+}
 }

@@ -41,8 +41,17 @@
         <input type="number" class="form-control" id="InputPhoneNumber" />
       </div>
       <div class="mb-3">
-        <label for="InputTitle" class="form-label">Sujet</label>
-        <input type="text" class="form-control" id="InputTitle" />
+        <label for="InputTitle" class="form-label">Sujet</label>      
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Tarif et horaire</option>
+          <option value="1">Offre entreprise et groupe</option>
+          <option value="2">Activité pédagogique</option>
+          <option value="3">Anniversaire</option>
+          <option value="4">Demande de lots</option>
+          <option value="5">Smartbox</option>
+          <option value="6">Recherche de stage/emploi</option>
+          <option value="7">Autre</option>
+        </select>
       </div>
       <div class="mb-3">
         <label for="labelTextarea" class="form-label">Message</label>
@@ -60,7 +69,7 @@
           >J'autorise le Zoo d'Amnéville à m'envoyer des informations</label
         >
       </div>
-      <button type="submit" class="btn btn-primary">Envoyer</button>
+      <button type="submit" class="btn btn-success">Envoyer</button>
     </form>
   </div>
 </div>
