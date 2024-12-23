@@ -770,26 +770,22 @@ a {
     margin: 10px;
     .container-cart {
       margin: 10px;
-      .img_habitat {
-        margin-bottom: 30px;
+      .img_menu {
+        margin-bottom: 20px;
         height: 100%;
         width: 100%;
+        border-radius: 10%;
         img {
           height: 200px;
-          width: 400px;
-          border-radius: 5%;
+          width: 350px;    
+          border-radius: 10%;
         }
-      }
-      .img_habitat:hover {
-        margin-bottom: 30px;
-        height: 100%;
-        width: 100%;
-        opacity: 1;
-        transition: 1s;
-        img {
+        img:hover {
+          filter: drop-shadow(5px 5px 10px black);
+          opacity: 0.3;
           height: 200px;
-          width: 400px;
-          border-radius: 5%;
+          width: 360px;  
+          border-radius: 10%;
         }
       }
     }
@@ -876,22 +872,21 @@ a {
   }
 }
 
-.container_connexion{
-margin: 25px;
-padding: 25px;
-max-width: 50em;
-min-width: 5em;
-margin-left: 15em;
-a{
-  color: black;
-}
+.container_connexion {
+  margin: 25px;
+  padding: 25px;
+  max-width: 50em;
+  min-width: 5em;
+  margin-left: 15em;
+  a {
+    color: black;
+  }
 
-.form-label{
-  color: black;
-  font-weight: bold;
+  .form-label {
+    color: black;
+    font-weight: bold;
+  }
 }
-}
-
 
 // page inscription //
 .title-inscription {
@@ -918,18 +913,18 @@ a{
   }
 }
 
-.container_inscription{
+.container_inscription {
   margin: 25px;
   padding: 20px;
   max-width: 50em;
   min-width: 5em;
   margin-left: 15em;
-  a{
+  a {
     color: black;
   }
-  
-  .form-label{
+
+  .form-label {
     color: black;
     font-weight: bold;
   }
-  }
+}

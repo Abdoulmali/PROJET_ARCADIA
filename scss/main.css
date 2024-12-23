@@ -12623,27 +12623,23 @@ a {
 .container-restau .container-sectionMenu .container-cart {
   margin: 10px;
 }
-.container-restau .container-sectionMenu .container-cart .img_habitat {
-  margin-bottom: 30px;
+.container-restau .container-sectionMenu .container-cart .img_menu {
+  margin-bottom: 20px;
   height: 100%;
   width: 100%;
+  border-radius: 10%;
 }
-.container-restau .container-sectionMenu .container-cart .img_habitat img {
+.container-restau .container-sectionMenu .container-cart .img_menu img {
   height: 200px;
-  width: 400px;
-  border-radius: 5%;
+  width: 350px;
+  border-radius: 10%;
 }
-.container-restau .container-sectionMenu .container-cart .img_habitat:hover {
-  margin-bottom: 30px;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: 1s;
-}
-.container-restau .container-sectionMenu .container-cart .img_habitat:hover img {
+.container-restau .container-sectionMenu .container-cart .img_menu img:hover {
+  filter: drop-shadow(5px 5px 10px black);
+  opacity: 0.3;
   height: 200px;
-  width: 400px;
-  border-radius: 5%;
+  width: 360px;
+  border-radius: 10%;
 }
 
 .title-contact {
