@@ -804,7 +804,7 @@ a {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.5) 50%
     ),
-    url("../img/lezar.jpg");
+    url("../img/contact.jpg");
   background-position: center;
   background-size: cover;
   height: 60vh;
@@ -858,7 +858,7 @@ a {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.5) 50%
     ),
-    url("../img/lezar.jpg");
+    url("../img/connexion.jpg");
   background-position: center;
   background-size: cover;
   height: 60vh;
@@ -879,6 +879,9 @@ a {
 .container_connexion{
 margin: 25px;
 padding: 25px;
+max-width: 50em;
+min-width: 5em;
+margin-left: 15em;
 a{
   color: black;
 }
@@ -888,3 +891,45 @@ a{
   font-weight: bold;
 }
 }
+
+
+// page inscription //
+.title-inscription {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/connexion.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+  .zone_text {
+    width: 60em;
+    border-radius: 50px;
+    background: black;
+    opacity: 0.7;
+  }
+}
+
+.container_inscription{
+  margin: 25px;
+  padding: 20px;
+  max-width: 50em;
+  min-width: 5em;
+  margin-left: 15em;
+  a{
+    color: black;
+  }
+  
+  .form-label{
+    color: black;
+    font-weight: bold;
+  }
+  }
