@@ -20,6 +20,12 @@ export const allRoutes = [
   new Route("/pandaGeant", "pandaGeant", "/pages/animaux/panda/pandaGeant.html"),
   new Route("/koala", "koala", "/pages/animaux/koala.html"),
 
+  new Route("/elephant", "elephant", "/pages/animaux/autres/elephant.html"),
+  new Route("/rhinoceros", "rhinoceros", "/pages/animaux/autres/rhinoceros.html"),
+  new Route("/python", "python", "/pages/animaux/autres/python.html"),
+  new Route("/hippopotame", "hippopotame", "/pages/animaux/autres/hippo.html"),
+  new Route("/crocodile", "crocodile", "/pages/animaux/autres/crocodile.html"),
+
   new Route("/restauration", "restauration", "/pages/restauration.html"),
   new Route("/contact", "contact", "/pages/contact.html"),
 

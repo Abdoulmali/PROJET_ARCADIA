@@ -282,6 +282,20 @@ a {
   }
 }
 
+.title-animal {
+  text-align: center;
+  margin: 20px;
+  padding-top: 40px;
+  h1 {
+    color: black;
+    font-size: 45px;
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
 .container-sectionHabitat {
   width: 100%;
   display: flex;
@@ -697,6 +711,102 @@ a {
   padding: 5em;
 }
 
+// Page éléphan //
+
+.title-elephant {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/Elephant/Elephant1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+// Page rhinoceros //
+.title-rhinoceros {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/rhinoceros.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+// Page python //
+.title-python {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/serpent/python2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+// Hippopotame //
+.title-hippopotame {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/Hippo/Hippo2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+// Page crocodile //
+.title-crocodile {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("../img/Crocodile/Crocodil5.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 5em;
+}
+
 // Page restauration //
 
 .title-restauration {
@@ -783,8 +893,8 @@ a {
         img:hover {
           filter: drop-shadow(5px 5px 10px black);
           opacity: 0.3;
-          height: 200px;
-          width: 360px;  
+          height: 240px;
+          width: 380px;  
           border-radius: 10%;
         }
       }
